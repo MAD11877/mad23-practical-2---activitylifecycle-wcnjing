@@ -1,10 +1,11 @@
 package sg.edu.np.mad.practicalmad;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
+
 import android.view.View;
 import android.widget.Button;
-
 
 public class MainActivity extends AppCompatActivity {
     private boolean following = false;
@@ -18,15 +19,17 @@ public class MainActivity extends AppCompatActivity {
         followButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (!following) {
+                if(!following){
                     followButton.setText("Unfollow");
-                } else {
+                }
+                else{
                     followButton.setText("Follow");
                 }
                 following = !following;
             }
         });
-
-
     }
+
+
+
 }
