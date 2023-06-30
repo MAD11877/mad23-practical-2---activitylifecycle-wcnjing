@@ -1,4 +1,4 @@
-package com.example.practicalmad;
+package sg.edu.np.mad;
 
 import androidx.appcompat.app.AppCompatActivity;
 
